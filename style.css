@@ -1,0 +1,59 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url("Create-Production-Docker-Images.png") no-repeat center bottom;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#home h1 {
+    color: rgb(12, 28, 100);
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 36px;
+    padding-top: 25px;
+}
+
+.box {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    align-items: center;
+    box-shadow: 20px 12px rgb(29, 27, 28);
+    width: 95%;
+    height: 40px;
+    background-color: rgb(54, 185, 224);
+    z-index: -1;
+    opacity: 1;
+}
+
+.input {
+    padding: 5px 5px;
+    margin: 5px 5px;
+    width: 93.5%;
+    border-radius: 2px solid purple;
+}
+
+.box2 {
+    margin: 20px 20px;
+    padding: 5px 20px;
+    box-shadow: 20px 12px rgb(202, 127, 165);
+    width: 95%;
+    height: 520px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(13, 8, 56);
+    z-index: -1;
+    opacity: 0.8;
+}

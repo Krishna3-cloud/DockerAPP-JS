@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DockerApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <section id="home">
+        <h1 class="h1-head"> Welcome to DockerWorld
+        </h1>
+    </section>
+
+    <section id="sec2">
+
+        <h2 align="center">
+
+            <div class="box">
+                <p>
+                    [root@localhost ~]#
+                    <input id="input" required="True" type="text" placeholder="Enter required docker commands" style="width: 50%; margin-bottom:10px;height:30px" />
+                    <button class="btn" type="submit" onclick="dock()" style="background-color: rgb(10, 10, 10); color: whitesmoke; height:30px">Run Command</button>
+                </p>
+            </div>
+
+        </h2>
+    </section>
+    <section id="result">
+
+        <div class="box2">
+            <pre>
+            <h3 style="color:rgb(15, 15, 15)">
+                <div id="out" ></div> </h3>
+            </pre>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>
